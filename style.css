@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;font-family: 'Space Mono', monospace;}
+html,body{height: 70vh}
+span{
+	text-transform: uppercase;
+	padding: 40px 77px;
+	display: block;
+	height: 70px;
+}
+#message{
+	font-weight: 700;
+	width: 133px;
+	height: 25px;
+	top: 40px;
+	left: 77px
+}
+.container{
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+}
+#image{
+	Width:539.22px;
+	Height:447.43px;
+}
+.description{
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+}
+.description h1{
+	width: 586px;
+	height: 190px;
+	top: 265px;
+	left: 735px;
+	font-size: 64px;
+}
+.description p{
+	margin: 30px 0;
+	width: 390px;
+	font-size: 24px;
+}
+.description button{
+	background-color: #333333;
+	width: 216px;
+	height: 68px;
+	margin: 0 0 50px 0;
+}
+.description label,.description button:hover{cursor: pointer}
+.description button label{
+	color: white;
+	text-transform: uppercase;
+}
+footer{
+	color: #BDBDBD;
+	font-size: 14px;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom:0;
+}
+@media screen and (max-width: 450px){
+	span{
+		padding: 20px 24px;
+	}
+	#image{
+		Width:286.83px;
+		Height:238px;
+	}
+	#image{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.description h1{
+		width: 355px;
+		height: 142px;
+		font-size: 48px;
+	}
+	.description p{
+		width: 328px;
+		font-size: 18px;
+	}
+	footer{
+		padding: 5px;
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		bottom:0;
+	}
+}
